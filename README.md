@@ -1,14 +1,20 @@
 # Synacor Challenge
 
-This repository holds my copy of the architecture specification and challenge
-binary from the Synacor Challenge as presented at OSCON 2012.  It is preserved
-for historical and educational purposes.  
+The original repository this was forked from holds a copy of the arch-spec and
+the program binary for the Synacor challenge.
+
+This repo holds my attempt at a solution written in Rust. At the time of writing
+this, I'm currently attempting to learn Rust. I apologize if anyone ever stumbles
+across this code, it's probably not very rust idiomatic, and perhaps just outright
+bad in a language agnostic way.
 
 ## Codes
 
-I have included MD5 hashes of the eight codes produced by this instance of the
-challenge for use in testing implementations of the architecture.  These codes
-can be validated as follows, replacing the quoted string with the code to test:
+Codes below are the md5sum hashes of the codes found through the challenge.
+
+Codes with strikethrough are codes I've personally found already.
+
+To take the md5sum in a *nix PC:
 
 ```console
 $ echo -n "<Code Here>" | md5sum
