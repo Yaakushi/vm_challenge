@@ -2,5 +2,9 @@
 name = "vm_challenge"
 version = "0.1.0"
 edition = "2024"
+description = "An attempt to solve the Synacor Challenge (2014) using rust. Probably a very bad attempt (sorry)."
+authors = ["Khloe Camargo <khloe@nic.br>"]
+license = "MIT"
+
 
 [dependencies]
